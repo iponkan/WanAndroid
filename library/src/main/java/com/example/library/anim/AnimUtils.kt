@@ -20,7 +20,7 @@ import android.animation.Animator
 import android.animation.TimeInterpolator
 import android.content.Context
 import android.os.Build
-import android.support.annotation.RequiresApi
+import androidx.annotation.RequiresApi
 import android.transition.Transition
 import android.util.ArrayMap
 import android.util.Property

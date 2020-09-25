@@ -3,7 +3,7 @@ package com.example.library.utils
 import android.app.Dialog
 import android.content.Context
 import android.content.DialogInterface
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 
 import com.example.library.R
 

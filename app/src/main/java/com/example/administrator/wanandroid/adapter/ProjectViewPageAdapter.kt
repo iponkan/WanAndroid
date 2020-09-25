@@ -1,8 +1,8 @@
 package com.example.administrator.wanandroid.adapter
 
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentPagerAdapter
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
 import com.example.administrator.wanandroid.Constants.PROJECT_FRAGMENTS
 import com.example.administrator.wanandroid.Constants.TITLE_FRAGMENTS
 import com.example.library.base.fragment.BaseCompatFragment
@@ -12,7 +12,7 @@ import com.example.library.base.fragment.BaseCompatFragment
  * @date    : 2018/08/29
  * @version : V 2.0.0
  */
-class ProjectViewPageAdapter(fragmentManager: FragmentManager ,val titleArray:Array<String>? = null ) : FragmentPagerAdapter(fragmentManager) {
+class ProjectViewPageAdapter(fragmentManager: FragmentManager, val titleArray:Array<String>? = null ) : FragmentPagerAdapter(fragmentManager) {
 
     var fragment = mutableListOf<BaseCompatFragment>()
 

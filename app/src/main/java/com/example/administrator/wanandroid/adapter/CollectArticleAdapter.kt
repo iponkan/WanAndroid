@@ -1,6 +1,6 @@
 package com.example.administrator.wanandroid.adapter
 
-import android.support.v7.util.DiffUtil
+import androidx.recyclerview.widget.DiffUtil
 import android.view.View
 import android.widget.ImageView
 import com.example.administrator.wanandroid.R

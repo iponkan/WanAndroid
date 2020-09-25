@@ -4,7 +4,7 @@ import android.app.SearchManager
 import android.content.Context
 import android.os.Bundle
 import android.provider.SyncStateContract.Helpers.insert
-import android.support.v7.widget.SearchView
+import androidx.appcompat.widget.SearchView
 import android.view.Menu
 import android.view.View
 import android.view.inputmethod.EditorInfo

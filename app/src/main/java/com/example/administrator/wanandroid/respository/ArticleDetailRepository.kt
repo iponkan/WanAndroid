@@ -1,6 +1,6 @@
 package com.example.administrator.wanandroid.respository
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import android.content.Context
 import com.example.administrator.wanandroid.database.AndroidDataBase
 import com.example.administrator.wanandroid.database.CollectArticle

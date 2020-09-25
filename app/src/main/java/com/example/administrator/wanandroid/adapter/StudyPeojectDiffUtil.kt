@@ -1,6 +1,6 @@
 package com.example.administrator.wanandroid.adapter
 
-import android.support.v7.util.DiffUtil
+import androidx.recyclerview.widget.DiffUtil
 import com.example.administrator.wanandroid.bean.ArticleBean
 import com.example.administrator.wanandroid.bean.CollectArticleBean
 import com.example.administrator.wanandroid.database.ReadPlanArticle

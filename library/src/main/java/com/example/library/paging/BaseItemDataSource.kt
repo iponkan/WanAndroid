@@ -1,7 +1,7 @@
 package com.example.administrator.paging.paging
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.paging.ItemKeyedDataSource
+import androidx.lifecycle.MutableLiveData
+import androidx.paging.ItemKeyedDataSource
 import com.example.administrator.paging.paging.base.Resource
 import java.util.concurrent.Executor
 

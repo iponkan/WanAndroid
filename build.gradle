@@ -42,7 +42,7 @@ ext{
     rxandroidVersion = '2.0.1'
     rxjavaVersion = '2.1.7'
     rxbindingVersion = '2.1.1'
-    glideVersion = '4.6.1'
+    glideVersion = '4.8.0'
     glide_transformations = '3.0.1'
     gsonVersion = '2.8.2'
     okhttpVersion = '3.9.1'

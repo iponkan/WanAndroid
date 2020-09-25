@@ -1,10 +1,10 @@
 package com.example.administrator.wanandroid.model
 
 import android.app.Application
-import android.arch.lifecycle.AndroidViewModel
-import android.arch.lifecycle.LiveData
-import android.arch.paging.LivePagedListBuilder
-import android.arch.paging.PagedList
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
+import androidx.paging.LivePagedListBuilder
+import androidx.paging.PagedList
 import com.example.administrator.wanandroid.database.AndroidDataBase
 import com.example.administrator.wanandroid.database.ReadPlanArticle
 import com.example.administrator.wanandroid.database.StudyProject

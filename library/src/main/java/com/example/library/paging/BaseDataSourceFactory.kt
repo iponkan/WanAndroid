@@ -1,7 +1,7 @@
 package com.example.administrator.paging.paging
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.paging.DataSource
+import androidx.lifecycle.MutableLiveData
+import androidx.paging.DataSource
 
 /**
  * 创建 DataSourceFactory，用于创建LiveData<PageList<T>>

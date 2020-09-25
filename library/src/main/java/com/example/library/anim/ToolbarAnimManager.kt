@@ -1,8 +1,8 @@
 package com.example.library.anim
 
 import android.content.Context
-import android.support.v7.widget.ActionMenuView
-import android.support.v7.widget.Toolbar
+import androidx.appcompat.widget.ActionMenuView
+import androidx.appcompat.widget.Toolbar
 import android.view.View
 import android.widget.ImageButton
 import android.widget.TextView

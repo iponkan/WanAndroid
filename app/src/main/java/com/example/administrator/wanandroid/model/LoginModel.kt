@@ -1,7 +1,7 @@
 package com.example.administrator.wanandroid.model
 
-import android.arch.lifecycle.Transformations
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.Transformations
+import androidx.lifecycle.ViewModel
 import com.example.administrator.wanandroid.respository.LoginResposity
 
 /**

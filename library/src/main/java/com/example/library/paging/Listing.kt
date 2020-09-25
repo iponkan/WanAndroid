@@ -1,7 +1,7 @@
 package com.example.administrator.paging.paging.base
 
-import android.arch.lifecycle.LiveData
-import android.arch.paging.PagedList
+import androidx.lifecycle.LiveData
+import androidx.paging.PagedList
 
 /**
  * 用于封装需要监听的对象和执行的操作，用于系统交互

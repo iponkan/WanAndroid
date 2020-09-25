@@ -7,12 +7,13 @@ import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.Rect
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
 import android.util.TypedValue
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
+import com.example.library.R
 import java.lang.reflect.Field
 
 
@@ -110,9 +111,9 @@ class ScreenUtils private constructor() {
                 return actionBarHeight
             }
             val tv = TypedValue()
-            if (context.theme.resolveAttribute(android.support.v7.appcompat.R.attr
+            if (context.theme.resolveAttribute(R.attr
                             .actionBarSize, tv, true)) {
-                if (context.theme.resolveAttribute(android.support.v7.appcompat.R.attr
+                if (context.theme.resolveAttribute(R.attr
                                 .actionBarSize, tv, true)) {
                     actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data, context
                             .resources.displayMetrics)
@@ -123,7 +124,7 @@ class ScreenUtils private constructor() {
                             .resources.displayMetrics)
                 }
             } else {
-                if (context.theme.resolveAttribute(android.support.v7.appcompat.R.attr
+                if (context.theme.resolveAttribute(R.attr
                                 .actionBarSize, tv, true)) {
                     actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data, context
                             .resources.displayMetrics)

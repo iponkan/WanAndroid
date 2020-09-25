@@ -1,7 +1,7 @@
 package com.example.administrator.wanandroid.model
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.example.administrator.wanandroid.bean.CategoryBean
 import com.example.administrator.wanandroid.http.RetrofitApi
 import com.example.library.helper.RxHelper

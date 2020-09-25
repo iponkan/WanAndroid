@@ -1,8 +1,8 @@
 package com.example.administrator.wanandroid.adapter
 
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentPagerAdapter
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
 import com.example.administrator.wanandroid.Constants.TITLE_FRAGMENTS
 import com.example.library.base.fragment.BaseCompatFragment
 

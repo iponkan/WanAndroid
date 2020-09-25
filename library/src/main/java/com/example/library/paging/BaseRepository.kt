@@ -1,8 +1,8 @@
 package com.example.administrator.paging.paging
 
-import android.arch.lifecycle.Transformations
-import android.arch.paging.LivePagedListBuilder
-import android.arch.paging.PagedList
+import androidx.lifecycle.Transformations
+import androidx.paging.LivePagedListBuilder
+import androidx.paging.PagedList
 import com.example.administrator.paging.paging.base.Listing
 import com.example.administrator.paging.paging.base.Repository
 

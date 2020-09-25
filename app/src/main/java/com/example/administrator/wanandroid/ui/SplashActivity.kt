@@ -2,7 +2,7 @@ package com.example.administrator.wanandroid.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.example.library.utils.PreferencesUtil
 import io.reactivex.Observable
 import java.util.concurrent.TimeUnit
